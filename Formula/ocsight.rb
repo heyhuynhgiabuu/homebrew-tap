@@ -30,7 +30,7 @@ class Ocsight < Formula
     # Create executable wrapper for the bundled CLI
     (bin/"ocsight").write <<~EOS
       #!/bin/bash
-      exec "#{libexec}/lib/bundle.cjs" "$@"
+      exec "#{libexec}/bundle.cjs" "$@"
     EOS
   end
 
