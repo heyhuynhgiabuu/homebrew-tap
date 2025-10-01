@@ -1,24 +1,24 @@
 class Ocsight < Formula
   desc "OpenCode ecosystem observability platform"
   homepage "https://github.com/heyhuynhgiabuu/ocsight"
-  version "1.0.0"
+  version "1.1.0"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.0.0/ocsight-darwin-arm64.zip"
-      sha256 "e66576e99ae435673e7fc3c358d65d11dd2f5525ef2729011d4ad3d2d1454f95"
+      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.1.0/ocsight-darwin-arm64.zip"
+      sha256 "4bee4aed238802393510dfd7806fd4aa48b831819fe4ed8b8d8e8300d5002917"
     else
-      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.0.0/ocsight-darwin-x64.zip"
+      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.1.0/ocsight-darwin-x64.zip"
       sha256 "51970e8ca7ab4bc0f60abe0b13912f77c9bbadf30c6209bdc06df2bf7d36e513"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.0.0/ocsight-linux-arm64.zip"
-      sha256 "1a4e213390d1c821673c5582dfa2c47564c39f95bd0e52f0e301c2be0c6621f9"
+      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.1.0/ocsight-linux-arm64.zip"
+      sha256 "f6fb1b138839b1716f2910ac7a5c3787502d9f78834fb58c0636116a6449f8ef"
     else
-      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.0.0/ocsight-linux-x64.zip"
+      url "https://github.com/heyhuynhgiabuu/ocsight/releases/download/v1.1.0/ocsight-linux-x64.zip"
       sha256 "357e3d78afbbfc109f4259df6cb1e33ce2928820426729cf40e9a64a10cdda96"
     end
   end
